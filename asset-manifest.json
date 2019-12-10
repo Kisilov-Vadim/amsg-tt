@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/amsg-tt/static/css/main.d1b05096.chunk.css",
+    "main.js": "/amsg-tt/static/js/main.6cf6d69d.chunk.js",
+    "main.js.map": "/amsg-tt/static/js/main.6cf6d69d.chunk.js.map",
+    "runtime-main.js": "/amsg-tt/static/js/runtime-main.3d6fc401.js",
+    "runtime-main.js.map": "/amsg-tt/static/js/runtime-main.3d6fc401.js.map",
+    "static/js/2.b39885ff.chunk.js": "/amsg-tt/static/js/2.b39885ff.chunk.js",
+    "static/js/2.b39885ff.chunk.js.map": "/amsg-tt/static/js/2.b39885ff.chunk.js.map",
+    "index.html": "/amsg-tt/index.html",
+    "precache-manifest.af97f1ca6429df5b41d0a49e059f3627.js": "/amsg-tt/precache-manifest.af97f1ca6429df5b41d0a49e059f3627.js",
+    "service-worker.js": "/amsg-tt/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/amsg-tt/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b39885ff.chunk.js.LICENSE": "/amsg-tt/static/js/2.b39885ff.chunk.js.LICENSE",
+    "static/media/logo.svg": "/amsg-tt/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d6fc401.js",
+    "static/js/2.b39885ff.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.6cf6d69d.chunk.js"
+  ]
+}
