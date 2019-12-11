@@ -1,0 +1,9 @@
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto minmax(190px));
+  row-gap: 74px;
+  column-gap: 94px;
+  height: max-content;
+  padding: 121px 0 124px;
+}

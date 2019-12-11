@@ -1,0 +1,22 @@
+.team {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 270px);
+  grid-template-rows: auto;
+  column-gap: 30px;
+  padding: 101px 0;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .team {
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 100px;
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .team {
+    grid-template-columns: repeat(1, 270px);
+  }
+}

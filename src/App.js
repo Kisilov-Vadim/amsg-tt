@@ -1,25 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react';
+import './styles.scss'; 
+import { getPhotos, advantages } from './data/data'; 
+
+import Header from './Header/Header';
+import Body from './Body/Body';
+import Footer from './Footer/Footer';
 
 function App() {
+  const [pictures, setPictures] = useState([]); 
+  const [newAdvantages, setNewAdvantages] = useState(advantages); 
+
+  useEffect(() => {
+    getPhotos()
+      .then(data => setPictures(data))
+  }, [])
+
+  const handleChange = () => {
+    let newAdv = [...advantages]; 
+    for (let i = 0; i < newAdv.length; i++) {
+      let randomPos = pictures[Math.floor(Math.random() * (5000 - 0)) + 0]
+      newAdv[i].img = randomPos.thumbnailUrl; 
+      newAdv[i].title = randomPos.title;  
+    }
+    setNewAdvantages(newAdv); 
+  }
+
+  console.log(pictures)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header handleChange={handleChange}/>
+      <Body advantages={newAdvantages} />
+      <Footer />
+    </>
   );
 }
 

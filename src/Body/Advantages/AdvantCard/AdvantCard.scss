@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    color: red;
+  }
+
+  &__title {
+    color: #2d3033; 
+    margin: 34px 0 25px;
+    text-align: center;
+  }
+
+  &__info {
+    color: #6c7279;
+    margin: 0;
+    text-align: center;
+    max-width: 296px;
+  }
+}
