@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5eab8836efb97fa1ed8f7639292e76e4",
+    "revision": "2d63949f55e9b0a5d4342bf0ac8f416f",
     "url": "/amsg-tt/index.html"
   },
   {
-    "revision": "d788f41b0a1b242e09fb",
+    "revision": "fa966dd2103e8589dd60",
     "url": "/amsg-tt/static/css/main.1acee065.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amsg-tt/static/js/2.7f0ca8db.chunk.js.LICENSE"
   },
   {
-    "revision": "d788f41b0a1b242e09fb",
-    "url": "/amsg-tt/static/js/main.8c8ef4aa.chunk.js"
+    "revision": "fa966dd2103e8589dd60",
+    "url": "/amsg-tt/static/js/main.fa7ec136.chunk.js"
   },
   {
     "revision": "afc5d8b7764d8dcc0309",
