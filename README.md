@@ -1,4 +1,4 @@
-## ActiveBox WebPage for AMSG
+### ActiveBox WebPage for AMSG
 
 [Link] (https://kisilov-vadim.github.io/amsg-tt/).
 
